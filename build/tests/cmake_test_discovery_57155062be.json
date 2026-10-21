@@ -1,0 +1,199 @@
+{
+  "tests": 29,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "FFTTest",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "DiracSpectrum",
+          "file": "\/Users\/lucaszivkovic\/ensimag\/C++\/CalibVol\/tests\/test_fft.cpp",
+          "line": 10
+        },
+        {
+          "name": "RoundTrip",
+          "file": "\/Users\/lucaszivkovic\/ensimag\/C++\/CalibVol\/tests\/test_fft.cpp",
+          "line": 19
+        },
+        {
+          "name": "ThrowsOnNonPowerOfTwo",
+          "file": "\/Users\/lucaszivkovic\/ensimag\/C++\/CalibVol\/tests\/test_fft.cpp",
+          "line": 30
+        },
+        {
+          "name": "SizeOne",
+          "file": "\/Users\/lucaszivkovic\/ensimag\/C++\/CalibVol\/tests\/test_fft.cpp",
+          "line": 35
+        }
+      ]
+    },
+    {
+      "name": "SimpsonWeightsTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "SumIsCorrect",
+          "file": "\/Users\/lucaszivkovic\/ensimag\/C++\/CalibVol\/tests\/test_fft.cpp",
+          "line": 41
+        },
+        {
+          "name": "ThrowsOnEvenN",
+          "file": "\/Users\/lucaszivkovic\/ensimag\/C++\/CalibVol\/tests\/test_fft.cpp",
+          "line": 50
+        },
+        {
+          "name": "Pattern",
+          "file": "\/Users\/lucaszivkovic\/ensimag\/C++\/CalibVol\/tests\/test_fft.cpp",
+          "line": 54
+        }
+      ]
+    },
+    {
+      "name": "HestonCFTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "AtZeroEqualsOne",
+          "file": "\/Users\/lucaszivkovic\/ensimag\/C++\/CalibVol\/tests\/test_heston_cf.cpp",
+          "line": 13
+        },
+        {
+          "name": "ModulusLeOne",
+          "file": "\/Users\/lucaszivkovic\/ensimag\/C++\/CalibVol\/tests\/test_heston_cf.cpp",
+          "line": 22
+        },
+        {
+          "name": "ConjugateSymmetry",
+          "file": "\/Users\/lucaszivkovic\/ensimag\/C++\/CalibVol\/tests\/test_heston_cf.cpp",
+          "line": 33
+        }
+      ]
+    },
+    {
+      "name": "HestonPriceTest",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "ATMCallPositive",
+          "file": "\/Users\/lucaszivkovic\/ensimag\/C++\/CalibVol\/tests\/test_heston_price.cpp",
+          "line": 13
+        },
+        {
+          "name": "OTMlessThanATM",
+          "file": "\/Users\/lucaszivkovic\/ensimag\/C++\/CalibVol\/tests\/test_heston_price.cpp",
+          "line": 21
+        },
+        {
+          "name": "LowerBound",
+          "file": "\/Users\/lucaszivkovic\/ensimag\/C++\/CalibVol\/tests\/test_heston_price.cpp",
+          "line": 31
+        },
+        {
+          "name": "GridAllNonNegative",
+          "file": "\/Users\/lucaszivkovic\/ensimag\/C++\/CalibVol\/tests\/test_heston_price.cpp",
+          "line": 40
+        }
+      ]
+    },
+    {
+      "name": "SabrParamsTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "ValidParams",
+          "file": "\/Users\/lucaszivkovic\/ensimag\/C++\/CalibVol\/tests\/test_sabr.cpp",
+          "line": 16
+        },
+        {
+          "name": "BetaZeroBoundary",
+          "file": "\/Users\/lucaszivkovic\/ensimag\/C++\/CalibVol\/tests\/test_sabr.cpp",
+          "line": 21
+        },
+        {
+          "name": "BetaOneBoundary",
+          "file": "\/Users\/lucaszivkovic\/ensimag\/C++\/CalibVol\/tests\/test_sabr.cpp",
+          "line": 27
+        }
+      ]
+    },
+    {
+      "name": "SabrImpliedVolTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "Positive",
+          "file": "\/Users\/lucaszivkovic\/ensimag\/C++\/CalibVol\/tests\/test_sabr.cpp",
+          "line": 35
+        },
+        {
+          "name": "ATMContinuous",
+          "file": "\/Users\/lucaszivkovic\/ensimag\/C++\/CalibVol\/tests\/test_sabr.cpp",
+          "line": 42
+        },
+        {
+          "name": "SmileSymmetryRho0",
+          "file": "\/Users\/lucaszivkovic\/ensimag\/C++\/CalibVol\/tests\/test_sabr.cpp",
+          "line": 52
+        },
+        {
+          "name": "NegativeRhoSkew",
+          "file": "\/Users\/lucaszivkovic\/ensimag\/C++\/CalibVol\/tests\/test_sabr.cpp",
+          "line": 64
+        },
+        {
+          "name": "IncreaseWithNu",
+          "file": "\/Users\/lucaszivkovic\/ensimag\/C++\/CalibVol\/tests\/test_sabr.cpp",
+          "line": 74
+        }
+      ]
+    },
+    {
+      "name": "SabrCallPriceTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "Positive",
+          "file": "\/Users\/lucaszivkovic\/ensimag\/C++\/CalibVol\/tests\/test_sabr.cpp",
+          "line": 89
+        },
+        {
+          "name": "OTMlessThanATM",
+          "file": "\/Users\/lucaszivkovic\/ensimag\/C++\/CalibVol\/tests\/test_sabr.cpp",
+          "line": 94
+        },
+        {
+          "name": "LowerBound",
+          "file": "\/Users\/lucaszivkovic\/ensimag\/C++\/CalibVol\/tests\/test_sabr.cpp",
+          "line": 103
+        }
+      ]
+    },
+    {
+      "name": "SabrVolSmileTest",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "OutputSize",
+          "file": "\/Users\/lucaszivkovic\/ensimag\/C++\/CalibVol\/tests\/test_sabr.cpp",
+          "line": 116
+        },
+        {
+          "name": "StrikesPassedThrough",
+          "file": "\/Users\/lucaszivkovic\/ensimag\/C++\/CalibVol\/tests\/test_sabr.cpp",
+          "line": 124
+        },
+        {
+          "name": "VolsPositive",
+          "file": "\/Users\/lucaszivkovic\/ensimag\/C++\/CalibVol\/tests\/test_sabr.cpp",
+          "line": 132
+        },
+        {
+          "name": "ConsistentWithImpliedVol",
+          "file": "\/Users\/lucaszivkovic\/ensimag\/C++\/CalibVol\/tests\/test_sabr.cpp",
+          "line": 140
+        }
+      ]
+    }
+  ]
+}

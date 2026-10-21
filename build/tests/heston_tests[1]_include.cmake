@@ -1,0 +1,5 @@
+if(EXISTS "/Users/lucaszivkovic/ensimag/C++/CalibVol/build/tests/heston_tests[1]_tests.cmake")
+  include("/Users/lucaszivkovic/ensimag/C++/CalibVol/build/tests/heston_tests[1]_tests.cmake")
+else()
+  add_test(heston_tests_NOT_BUILT heston_tests_NOT_BUILT)
+endif()

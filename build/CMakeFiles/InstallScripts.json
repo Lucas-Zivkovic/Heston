@@ -1,0 +1,15 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/lucaszivkovic/ensimag/C++/CalibVol/build/cmake_install.cmake",
+		"/Users/lucaszivkovic/ensimag/C++/CalibVol/build/_deps/googletest-build/cmake_install.cmake",
+		"/Users/lucaszivkovic/ensimag/C++/CalibVol/build/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"/Users/lucaszivkovic/ensimag/C++/CalibVol/build/_deps/googletest-build/googletest/cmake_install.cmake",
+		"/Users/lucaszivkovic/ensimag/C++/CalibVol/build/_deps/pybind11-build/cmake_install.cmake",
+		"/Users/lucaszivkovic/ensimag/C++/CalibVol/build/_deps/benchmark-build/cmake_install.cmake",
+		"/Users/lucaszivkovic/ensimag/C++/CalibVol/build/_deps/benchmark-build/src/cmake_install.cmake",
+		"/Users/lucaszivkovic/ensimag/C++/CalibVol/build/tests/cmake_install.cmake",
+		"/Users/lucaszivkovic/ensimag/C++/CalibVol/build/benchmarks/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
