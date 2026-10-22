@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -march=native -ffast-math -DNDEBUG -arch arm64 -bundle -Wl,-headerpad_max_install_names -Xlinker -undefined -Xlinker dynamic_lookup -flto -o heston.cpython-313-darwin.so CMakeFiles/heston.dir/python/binding.cpp.o  libheston_lib.a

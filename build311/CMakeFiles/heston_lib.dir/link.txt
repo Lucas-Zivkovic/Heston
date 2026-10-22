@@ -1,2 +1,0 @@
-/usr/bin/ar qc libheston_lib.a CMakeFiles/heston_lib.dir/src/heston.cpp.o CMakeFiles/heston_lib.dir/src/fft.cpp.o CMakeFiles/heston_lib.dir/src/Sabr.cpp.o
-/usr/bin/ranlib libheston_lib.a

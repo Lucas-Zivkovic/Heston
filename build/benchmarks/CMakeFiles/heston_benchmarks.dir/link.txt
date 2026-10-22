@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -march=native -ffast-math -DNDEBUG -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/heston_benchmarks.dir/bench_fft.cpp.o CMakeFiles/heston_benchmarks.dir/bench_heston.cpp.o -o heston_benchmarks  ../libheston_lib.a ../_deps/benchmark-build/src/libbenchmark_main.a ../_deps/benchmark-build/src/libbenchmark.a
