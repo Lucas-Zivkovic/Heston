@@ -58,6 +58,8 @@ add_library(heston_lib STATIC
 target_include_directories(heston_lib PUBLIC
     ${CMAKE_SOURCE_DIR}/include
 )
+# Needed to link this static lib into the Python module (.so) on Linux x86_64
+set_target_properties(heston_lib PROPERTIES POSITION_INDEPENDENT_CODE ON)
 target_compile_options(heston_lib PRIVATE
     -Wall -Wextra -Wpedantic -Wshadow -Wconversion
 )
